@@ -1,0 +1,73 @@
+.nav{
+  color: white;
+}
+
+.navHeader{
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background-color: $apacheRed;
+  justify-content: space-between;
+}
+
+.navMenu{
+  padding: 75px 10px;
+  background-color: white;
+  color: $apacheRed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    li{
+      font-size: 2em;
+      font-weight: bold;
+    }
+  }
+}
+
+
+@media screen and (min-width:600px){
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+  }
+  .navHeader{
+  background-color: transparent;
+    position: static;
+    flex: 1;
+  }
+
+  .navIcon{
+    display: none;
+  }
+
+
+
+  .navMenu{
+      background-color: transparent;
+    flex: 2;
+    height: auto;
+    padding: 0;
+    justify-content: flex-end;
+    ul{
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      li{
+        color: white;
+        font-size: 1em;
+        padding: 10px;
+      }
+    }
+  }
+
+}

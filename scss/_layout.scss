@@ -1,0 +1,261 @@
+// Grids & blocked content included here
+*{
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+// Blocked content colour choices
+.red {
+    background-color: #e74c3c;
+}
+
+.blue {
+    background-color: #2980b9;
+}
+
+.green {
+    background-color: #16a085;
+}
+
+.yellow {
+    background-color: #f1c40f;
+}
+
+.purple {
+    background-color: #9b59b6;
+}
+
+.grey {
+    background-color: #95a5a6;
+}
+
+.orange {
+    background-color: #e67e22;
+}
+
+.pink {
+    background-color: #ff9ff3;
+}
+
+.skyblue {
+    background-color: #48dbfb;
+}
+
+.lime {
+    background-color: #badc58;
+}
+
+.black {
+    background-color: #2d3436;
+}
+
+.white {
+    background-color: #ecf0f1;
+}
+
+.apacheRed {
+    background-color: #BA5252;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// Small Screen Size Columns
+.col {
+    min-height: 50px;
+    float: left;
+    padding: 15px;
+}
+
+.col1 {
+    width: 8.33%;
+}
+
+.col2 {
+    width: 16.67%
+}
+
+.col3 {
+    width: 25%;
+}
+
+.col4 {
+    width: 33.33%
+}
+
+.col5 {
+    width: 41.66%
+}
+
+.col6 {
+    width: 50%;
+}
+
+.col7 {
+    width: 58.33%;
+}
+
+.col8 {
+    width: 66.66%
+}
+
+.col9 {
+    width: 75%
+}
+
+.col10 {
+    width: 83.33%;
+}
+
+.col11 {
+    width: 91.66%
+}
+
+.col12 {
+    width: 100%;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 600px){
+  // Medium Screen Size Columns
+.colM1 {
+    width: 8.33%;
+}
+
+.colM2 {
+    width: 16.67%
+}
+
+.colM3 {
+    width: 25%;
+}
+
+.colM4 {
+    width: 33.33%
+}
+
+.colM5 {
+    width: 41.66%
+}
+
+.colM6 {
+    width: 50%;
+}
+
+.colM7{
+    width: 58.33%;
+}
+
+.colM8 {
+    width: 66.66%
+}
+
+.colM9 {
+    width: 75%
+}
+
+.colM10 {
+    width: 83.33%;
+}
+
+.colM11 {
+    width: 91.66%
+}
+
+.colM12 {
+    width: 100%;
+}
+
+.textMLeft {
+    text-align: left;
+}
+
+.textMRight {
+    text-align: right;
+}
+
+.textMCenter {
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width:1000px){
+  // Large Screen Size Columns
+.colL1 {
+    width: 8.33%;
+}
+
+.colL2 {
+    width: 16.67%
+}
+
+.colL3 {
+    width: 25%;
+}
+
+.colL4 {
+    width: 33.33%
+}
+
+.colL5 {
+    width: 41.66%
+}
+
+.colL6 {
+    width: 50%;
+}
+
+.colL7 {
+    width: 58.33%;
+}
+
+.colL8 {
+    width: 66.66%
+}
+
+.colL9 {
+    width: 75%
+}
+
+.colL10 {
+    width: 83.33%;
+}
+
+.colL11 {
+    width: 91.66%
+}
+
+.colL12 {
+    width: 100%;
+}
+
+.textLLeft {
+    text-align: left;
+}
+
+.textLRight {
+    text-align: right;
+}
+
+.textLCenter {
+    text-align: center;
+  }
+}

@@ -41,3 +41,102 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+// Mobile Screens START
+	.container {
+		// max-width: 600px;
+	  margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.siteName p {
+		font-size: 36px;
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		padding: 20px;
+	}
+
+	.barsMenu {
+		font-size: 34px;
+		padding: 20px;
+		color: white;
+	}
+
+	.containerBody {
+		// max-width: 600px;
+		height: 564px;
+	  margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.headerHanoi {
+		font-size: 36px;
+		color: white;
+	}
+
+	#headerParis {
+  }
+
+  .containerText {
+	}
+
+	#textBody {
+		color: white;
+	}
+
+// .nav {
+//   list-style: none;
+//   float: right;
+// 	display: none;
+// }
+//
+// .nav li {
+//   float: left;
+//   padding: 10px;
+// 	display: none;
+// }
+//
+// .navContainer {
+//   max-width: 1200px;
+//   margin: 0 auto;
+// 	display: none;
+// }
+//
+// .mobileRow {
+// 	display: flex;
+// 	align-item
+// }
+
+// Tablet Screens START
+@media screen and (min-width: 600px){
+// 	.nav {
+// 	  list-style: none;
+// 	  float: right;
+// 	}
+//
+// 	.nav li {
+// 	  float: left;
+// 	  padding: 10px;
+// 	}
+//
+// 	.container {
+// 	  max-width: 1200px;
+// 	  margin: 0 auto;
+// 	}
+//
+// 	.navContainer {
+// 	  max-width: 1200px;
+// 	  margin: 0 auto;
+// 	}
+//
+// 	.mobileRow {
+// 		display: none;
+// 	}
+}
+
+// Desktop Screens START
+@media screen and (min-width: 1000px){
+}
